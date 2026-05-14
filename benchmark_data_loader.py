@@ -47,6 +47,8 @@ from typing import Any
 import numpy as np
 import pandas as pd
 import torch
+from ax.api.utils.generation_strategy_dispatch import choose_generation_strategy
+from ax.api.utils.structs import GenerationStrategyDispatchStruct
 from ax.benchmark.benchmark_method import BenchmarkMethod
 from ax.benchmark.benchmark_metric import BenchmarkMetric
 from ax.benchmark.benchmark_problem import BenchmarkProblem
@@ -63,6 +65,8 @@ from ax.core.parameter import (
 )
 from ax.core.search_space import HierarchicalSearchSpace, SearchSpace
 from ax.core.types import TParamValue
+from botorch.acquisition.logei import qLogNoisyExpectedImprovement
+from botorch.models import SingleTaskGP
 from sklearn.base import clone
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.linear_model import LinearRegression
@@ -425,8 +429,6 @@ def get_bo_method(
     Uses SingleTaskGP with qLogNoisyExpectedImprovement. Equivalent to the
     FASTER_AX generation method (standard GP, no SAASBO).
     """
-    from botorch.acquisition.logei import qLogNoisyExpectedImprovement
-    from botorch.models import SingleTaskGP
 
     return get_sobol_botorch_modular_acquisition(
         model_cls=SingleTaskGP,
@@ -443,9 +445,6 @@ def get_default_bo_method(
     Uses method="quality" (fully Bayesian SAAS + input warping) which is
     equivalent to the DEFAULT generation method for high-dimensional spaces.
     """
-    from ax.api.utils.generation_strategy_dispatch import choose_generation_strategy
-    from ax.api.utils.structs import GenerationStrategyDispatchStruct
-
     gs = choose_generation_strategy(
         GenerationStrategyDispatchStruct(
             method="quality",
