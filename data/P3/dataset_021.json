@@ -1,0 +1,156 @@
+{
+  "minimize": true,
+  "search_space": [
+    {
+      "name": "s1.s2.s3",
+      "type": "choice",
+      "values": [
+        32,
+        64,
+        256,
+        512
+      ],
+      "parameter_type": "int",
+      "is_ordered": true,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s4",
+      "type": "choice",
+      "values": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "parameter_type": "float",
+      "is_ordered": true,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s5",
+      "type": "choice",
+      "values": [
+        5.0,
+        10.0,
+        20.0
+      ],
+      "parameter_type": "float",
+      "is_ordered": true,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s6",
+      "type": "choice",
+      "values": [
+        false,
+        true
+      ],
+      "parameter_type": "bool",
+      "is_ordered": true,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s7",
+      "type": "choice",
+      "values": [
+        false,
+        true
+      ],
+      "parameter_type": "bool",
+      "is_ordered": true,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s8",
+      "type": "choice",
+      "values": [
+        false,
+        true
+      ],
+      "parameter_type": "bool",
+      "is_ordered": true,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1",
+      "type": "choice",
+      "values": [
+        "option_1"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": {
+        "option_1": [
+          "s1.s2.s3",
+          "s1.s2.s4",
+          "s1.s2.s5",
+          "s1.s2.s6",
+          "s1.s2.s7",
+          "s1.s2.s8"
+        ]
+      }
+    }
+  ],
+  "trials": [
+    {
+      "parameters": {
+        "s1.s2.s3": 512,
+        "s1.s2.s4": 0.5,
+        "s1.s2.s5": 10.0,
+        "s1.s2.s6": false,
+        "s1.s2.s7": false,
+        "s1.s2.s8": true,
+        "s1": "option_1"
+      },
+      "metric": 0.0
+    },
+    {
+      "parameters": {
+        "s1.s2.s3": 256,
+        "s1.s2.s4": 1.0,
+        "s1.s2.s5": 5.0,
+        "s1.s2.s6": false,
+        "s1.s2.s7": true,
+        "s1.s2.s8": false,
+        "s1": "option_1"
+      },
+      "metric": 0.3508314785664508
+    },
+    {
+      "parameters": {
+        "s1.s2.s3": 32,
+        "s1.s2.s4": 2.0,
+        "s1.s2.s5": 20.0,
+        "s1.s2.s6": false,
+        "s1.s2.s7": false,
+        "s1.s2.s8": false,
+        "s1": "option_1"
+      },
+      "metric": 1.0
+    },
+    {
+      "parameters": {
+        "s1.s2.s3": 512,
+        "s1.s2.s4": 0.5,
+        "s1.s2.s5": 5.0,
+        "s1.s2.s6": true,
+        "s1.s2.s7": false,
+        "s1.s2.s8": true,
+        "s1": "option_1"
+      },
+      "metric": 0.43081100494410013
+    },
+    {
+      "parameters": {
+        "s1.s2.s3": 64,
+        "s1.s2.s4": 2.0,
+        "s1.s2.s5": 5.0,
+        "s1.s2.s6": false,
+        "s1.s2.s7": true,
+        "s1.s2.s8": true,
+        "s1": "option_1"
+      },
+      "metric": 0.46964605467524523
+    }
+  ]
+}

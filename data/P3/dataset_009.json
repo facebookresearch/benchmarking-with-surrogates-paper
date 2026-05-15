@@ -1,0 +1,1042 @@
+{
+  "minimize": true,
+  "search_space": [
+    {
+      "name": "s1.s2.s3.s4.s5",
+      "type": "choice",
+      "values": [
+        "option_1"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s4.s6.s7.s8.s9",
+      "type": "choice",
+      "values": [
+        25
+      ],
+      "parameter_type": "int",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s4.s6.s7.s8.s10.s11",
+      "type": "choice",
+      "values": [
+        16
+      ],
+      "parameter_type": "int",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s4.s6.s7.s8.s10.s12",
+      "type": "choice",
+      "values": [
+        "option_2"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s4.s6.s7.s13.s9",
+      "type": "choice",
+      "values": [
+        8
+      ],
+      "parameter_type": "int",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s4.s6.s7.s13.s10.s11",
+      "type": "choice",
+      "values": [
+        17
+      ],
+      "parameter_type": "int",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s4.s6.s7.s13.s10.s12",
+      "type": "choice",
+      "values": [
+        "option_2"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s4.s6.s7.s14.s9",
+      "type": "choice",
+      "values": [
+        6
+      ],
+      "parameter_type": "int",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s4.s6.s7.s14.s10.s11",
+      "type": "choice",
+      "values": [
+        18
+      ],
+      "parameter_type": "int",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s4.s6.s7.s14.s10.s12",
+      "type": "choice",
+      "values": [
+        "option_2"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s4.s6.s7.s15.s9",
+      "type": "choice",
+      "values": [
+        5
+      ],
+      "parameter_type": "int",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s4.s6.s7.s15.s10.s11",
+      "type": "choice",
+      "values": [
+        19
+      ],
+      "parameter_type": "int",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s4.s6.s7.s15.s10.s12",
+      "type": "choice",
+      "values": [
+        "option_2"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s4.s6.s7.s16.s9",
+      "type": "choice",
+      "values": [
+        0
+      ],
+      "parameter_type": "int",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s4.s6.s7.s16.s10.s11",
+      "type": "choice",
+      "values": [
+        20
+      ],
+      "parameter_type": "int",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s4.s6.s7.s16.s10.s12",
+      "type": "choice",
+      "values": [
+        "option_2"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s4.s6.s17",
+      "type": "choice",
+      "values": [
+        false
+      ],
+      "parameter_type": "bool",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s4.s6.s18.s19",
+      "type": "choice",
+      "values": [
+        "option_1"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s4.s6.s18.s20.s11",
+      "type": "choice",
+      "values": [
+        910300
+      ],
+      "parameter_type": "int",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s4.s6.s18.s20.s12",
+      "type": "choice",
+      "values": [
+        "option_2"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s4.s21",
+      "type": "choice",
+      "values": [
+        "option_1"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s4.s22.s23",
+      "type": "choice",
+      "values": [
+        false
+      ],
+      "parameter_type": "bool",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s4.s22.s24",
+      "type": "choice",
+      "values": [
+        64
+      ],
+      "parameter_type": "int",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s4.s22.s25",
+      "type": "choice",
+      "values": [
+        "option_1"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s4.s22.s26",
+      "type": "choice",
+      "values": [
+        "option_1"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s4.s22.s27",
+      "type": "range",
+      "bounds": [
+        0.1,
+        2.5
+      ],
+      "parameter_type": "float",
+      "scaling": null
+    },
+    {
+      "name": "s1.s2.s3.s4.s22.s28.s29",
+      "type": "choice",
+      "values": [
+        1.001
+      ],
+      "parameter_type": "float",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s4.s22.s28.s30",
+      "type": "choice",
+      "values": [
+        "option_1"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s31.s5",
+      "type": "choice",
+      "values": [
+        "option_1"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s31.s6.s7.s8.s9",
+      "type": "choice",
+      "values": [
+        1182125
+      ],
+      "parameter_type": "int",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s31.s6.s7.s8.s10.s11",
+      "type": "choice",
+      "values": [
+        22
+      ],
+      "parameter_type": "int",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s31.s6.s7.s8.s10.s12",
+      "type": "choice",
+      "values": [
+        "option_2"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s31.s6.s7.s13.s9",
+      "type": "choice",
+      "values": [
+        77796
+      ],
+      "parameter_type": "int",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s31.s6.s7.s13.s10.s11",
+      "type": "choice",
+      "values": [
+        23
+      ],
+      "parameter_type": "int",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s31.s6.s7.s13.s10.s12",
+      "type": "choice",
+      "values": [
+        "option_2"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s31.s6.s7.s14.s9",
+      "type": "choice",
+      "values": [
+        24863
+      ],
+      "parameter_type": "int",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s31.s6.s7.s14.s10.s11",
+      "type": "choice",
+      "values": [
+        24
+      ],
+      "parameter_type": "int",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s31.s6.s7.s14.s10.s12",
+      "type": "choice",
+      "values": [
+        "option_2"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s31.s6.s7.s15.s9",
+      "type": "choice",
+      "values": [
+        8079
+      ],
+      "parameter_type": "int",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s31.s6.s7.s15.s10.s11",
+      "type": "choice",
+      "values": [
+        25
+      ],
+      "parameter_type": "int",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s31.s6.s7.s15.s10.s12",
+      "type": "choice",
+      "values": [
+        "option_2"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s31.s6.s7.s16.s9",
+      "type": "choice",
+      "values": [
+        1
+      ],
+      "parameter_type": "int",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s31.s6.s7.s16.s10.s11",
+      "type": "choice",
+      "values": [
+        26
+      ],
+      "parameter_type": "int",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s31.s6.s7.s16.s10.s12",
+      "type": "choice",
+      "values": [
+        "option_2"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s31.s6.s17",
+      "type": "choice",
+      "values": [
+        false
+      ],
+      "parameter_type": "bool",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s31.s6.s18.s19",
+      "type": "choice",
+      "values": [
+        "option_1"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s31.s6.s18.s20.s11",
+      "type": "choice",
+      "values": [
+        351140117
+      ],
+      "parameter_type": "int",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s31.s6.s18.s20.s12",
+      "type": "choice",
+      "values": [
+        "option_3"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s31.s21",
+      "type": "choice",
+      "values": [
+        "option_1"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s31.s22.s23",
+      "type": "choice",
+      "values": [
+        false
+      ],
+      "parameter_type": "bool",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s31.s22.s24",
+      "type": "choice",
+      "values": [
+        64
+      ],
+      "parameter_type": "int",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s31.s22.s25",
+      "type": "choice",
+      "values": [
+        "option_1"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s31.s22.s26",
+      "type": "choice",
+      "values": [
+        "option_1"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s31.s22.s27",
+      "type": "range",
+      "bounds": [
+        0.1,
+        2.5
+      ],
+      "parameter_type": "float",
+      "scaling": null
+    },
+    {
+      "name": "s1.s2.s3.s31.s22.s28.s29",
+      "type": "choice",
+      "values": [
+        1.001
+      ],
+      "parameter_type": "float",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s3.s31.s22.s28.s30",
+      "type": "choice",
+      "values": [
+        "option_1"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s32",
+      "type": "choice",
+      "values": [
+        "option_1"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s33",
+      "type": "choice",
+      "values": [
+        "option_4"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1",
+      "type": "choice",
+      "values": [
+        "option_5"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": {
+        "option_5": [
+          "s1.s2.s3.s4.s5",
+          "s1.s2.s3.s4.s6.s7.s8.s9",
+          "s1.s2.s3.s4.s6.s7.s8.s10.s11",
+          "s1.s2.s3.s4.s6.s7.s8.s10.s12",
+          "s1.s2.s3.s4.s6.s7.s13.s9",
+          "s1.s2.s3.s4.s6.s7.s13.s10.s11",
+          "s1.s2.s3.s4.s6.s7.s13.s10.s12",
+          "s1.s2.s3.s4.s6.s7.s14.s9",
+          "s1.s2.s3.s4.s6.s7.s14.s10.s11",
+          "s1.s2.s3.s4.s6.s7.s14.s10.s12",
+          "s1.s2.s3.s4.s6.s7.s15.s9",
+          "s1.s2.s3.s4.s6.s7.s15.s10.s11",
+          "s1.s2.s3.s4.s6.s7.s15.s10.s12",
+          "s1.s2.s3.s4.s6.s7.s16.s9",
+          "s1.s2.s3.s4.s6.s7.s16.s10.s11",
+          "s1.s2.s3.s4.s6.s7.s16.s10.s12",
+          "s1.s2.s3.s4.s6.s17",
+          "s1.s2.s3.s4.s6.s18.s19",
+          "s1.s2.s3.s4.s6.s18.s20.s11",
+          "s1.s2.s3.s4.s6.s18.s20.s12",
+          "s1.s2.s3.s4.s21",
+          "s1.s2.s3.s4.s22.s23",
+          "s1.s2.s3.s4.s22.s24",
+          "s1.s2.s3.s4.s22.s25",
+          "s1.s2.s3.s4.s22.s26",
+          "s1.s2.s3.s4.s22.s27",
+          "s1.s2.s3.s4.s22.s28.s29",
+          "s1.s2.s3.s4.s22.s28.s30",
+          "s1.s2.s3.s31.s5",
+          "s1.s2.s3.s31.s6.s7.s8.s9",
+          "s1.s2.s3.s31.s6.s7.s8.s10.s11",
+          "s1.s2.s3.s31.s6.s7.s8.s10.s12",
+          "s1.s2.s3.s31.s6.s7.s13.s9",
+          "s1.s2.s3.s31.s6.s7.s13.s10.s11",
+          "s1.s2.s3.s31.s6.s7.s13.s10.s12",
+          "s1.s2.s3.s31.s6.s7.s14.s9",
+          "s1.s2.s3.s31.s6.s7.s14.s10.s11",
+          "s1.s2.s3.s31.s6.s7.s14.s10.s12",
+          "s1.s2.s3.s31.s6.s7.s15.s9",
+          "s1.s2.s3.s31.s6.s7.s15.s10.s11",
+          "s1.s2.s3.s31.s6.s7.s15.s10.s12",
+          "s1.s2.s3.s31.s6.s7.s16.s9",
+          "s1.s2.s3.s31.s6.s7.s16.s10.s11",
+          "s1.s2.s3.s31.s6.s7.s16.s10.s12",
+          "s1.s2.s3.s31.s6.s17",
+          "s1.s2.s3.s31.s6.s18.s19",
+          "s1.s2.s3.s31.s6.s18.s20.s11",
+          "s1.s2.s3.s31.s6.s18.s20.s12",
+          "s1.s2.s3.s31.s21",
+          "s1.s2.s3.s31.s22.s23",
+          "s1.s2.s3.s31.s22.s24",
+          "s1.s2.s3.s31.s22.s25",
+          "s1.s2.s3.s31.s22.s26",
+          "s1.s2.s3.s31.s22.s27",
+          "s1.s2.s3.s31.s22.s28.s29",
+          "s1.s2.s3.s31.s22.s28.s30",
+          "s1.s2.s32",
+          "s1.s2.s33"
+        ]
+      }
+    }
+  ],
+  "trials": [
+    {
+      "parameters": {
+        "s1.s2.s3.s4.s5": "option_1",
+        "s1.s2.s3.s4.s6.s7.s8.s9": 25,
+        "s1.s2.s3.s4.s6.s7.s8.s10.s11": 16,
+        "s1.s2.s3.s4.s6.s7.s8.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s7.s13.s9": 8,
+        "s1.s2.s3.s4.s6.s7.s13.s10.s11": 17,
+        "s1.s2.s3.s4.s6.s7.s13.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s7.s14.s9": 6,
+        "s1.s2.s3.s4.s6.s7.s14.s10.s11": 18,
+        "s1.s2.s3.s4.s6.s7.s14.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s7.s15.s9": 5,
+        "s1.s2.s3.s4.s6.s7.s15.s10.s11": 19,
+        "s1.s2.s3.s4.s6.s7.s15.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s7.s16.s9": 0,
+        "s1.s2.s3.s4.s6.s7.s16.s10.s11": 20,
+        "s1.s2.s3.s4.s6.s7.s16.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s17": false,
+        "s1.s2.s3.s4.s6.s18.s19": "option_1",
+        "s1.s2.s3.s4.s6.s18.s20.s11": 910300,
+        "s1.s2.s3.s4.s6.s18.s20.s12": "option_2",
+        "s1.s2.s3.s4.s21": "option_1",
+        "s1.s2.s3.s4.s22.s23": false,
+        "s1.s2.s3.s4.s22.s24": 64,
+        "s1.s2.s3.s4.s22.s25": "option_1",
+        "s1.s2.s3.s4.s22.s26": "option_1",
+        "s1.s2.s3.s4.s22.s27": 0.27750306725502016,
+        "s1.s2.s3.s4.s22.s28.s29": 1.001,
+        "s1.s2.s3.s4.s22.s28.s30": "option_1",
+        "s1.s2.s3.s31.s5": "option_1",
+        "s1.s2.s3.s31.s6.s7.s8.s9": 1182125,
+        "s1.s2.s3.s31.s6.s7.s8.s10.s11": 22,
+        "s1.s2.s3.s31.s6.s7.s8.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s7.s13.s9": 77796,
+        "s1.s2.s3.s31.s6.s7.s13.s10.s11": 23,
+        "s1.s2.s3.s31.s6.s7.s13.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s7.s14.s9": 24863,
+        "s1.s2.s3.s31.s6.s7.s14.s10.s11": 24,
+        "s1.s2.s3.s31.s6.s7.s14.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s7.s15.s9": 8079,
+        "s1.s2.s3.s31.s6.s7.s15.s10.s11": 25,
+        "s1.s2.s3.s31.s6.s7.s15.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s7.s16.s9": 1,
+        "s1.s2.s3.s31.s6.s7.s16.s10.s11": 26,
+        "s1.s2.s3.s31.s6.s7.s16.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s17": false,
+        "s1.s2.s3.s31.s6.s18.s19": "option_1",
+        "s1.s2.s3.s31.s6.s18.s20.s11": 351140117,
+        "s1.s2.s3.s31.s6.s18.s20.s12": "option_3",
+        "s1.s2.s3.s31.s21": "option_1",
+        "s1.s2.s3.s31.s22.s23": false,
+        "s1.s2.s3.s31.s22.s24": 64,
+        "s1.s2.s3.s31.s22.s25": "option_1",
+        "s1.s2.s3.s31.s22.s26": "option_1",
+        "s1.s2.s3.s31.s22.s27": 1.5557411193847657,
+        "s1.s2.s3.s31.s22.s28.s29": 1.001,
+        "s1.s2.s3.s31.s22.s28.s30": "option_1",
+        "s1.s2.s32": "option_1",
+        "s1.s2.s33": "option_4",
+        "s1": "option_5"
+      },
+      "metric": 0.8883808401927396
+    },
+    {
+      "parameters": {
+        "s1.s2.s3.s4.s5": "option_1",
+        "s1.s2.s3.s4.s6.s7.s8.s9": 25,
+        "s1.s2.s3.s4.s6.s7.s8.s10.s11": 16,
+        "s1.s2.s3.s4.s6.s7.s8.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s7.s13.s9": 8,
+        "s1.s2.s3.s4.s6.s7.s13.s10.s11": 17,
+        "s1.s2.s3.s4.s6.s7.s13.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s7.s14.s9": 6,
+        "s1.s2.s3.s4.s6.s7.s14.s10.s11": 18,
+        "s1.s2.s3.s4.s6.s7.s14.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s7.s15.s9": 5,
+        "s1.s2.s3.s4.s6.s7.s15.s10.s11": 19,
+        "s1.s2.s3.s4.s6.s7.s15.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s7.s16.s9": 0,
+        "s1.s2.s3.s4.s6.s7.s16.s10.s11": 20,
+        "s1.s2.s3.s4.s6.s7.s16.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s17": false,
+        "s1.s2.s3.s4.s6.s18.s19": "option_1",
+        "s1.s2.s3.s4.s6.s18.s20.s11": 910300,
+        "s1.s2.s3.s4.s6.s18.s20.s12": "option_2",
+        "s1.s2.s3.s4.s21": "option_1",
+        "s1.s2.s3.s4.s22.s23": false,
+        "s1.s2.s3.s4.s22.s24": 64,
+        "s1.s2.s3.s4.s22.s25": "option_1",
+        "s1.s2.s3.s4.s22.s26": "option_1",
+        "s1.s2.s3.s4.s22.s27": 2.361360498517752,
+        "s1.s2.s3.s4.s22.s28.s29": 1.001,
+        "s1.s2.s3.s4.s22.s28.s30": "option_1",
+        "s1.s2.s3.s31.s5": "option_1",
+        "s1.s2.s3.s31.s6.s7.s8.s9": 1182125,
+        "s1.s2.s3.s31.s6.s7.s8.s10.s11": 22,
+        "s1.s2.s3.s31.s6.s7.s8.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s7.s13.s9": 77796,
+        "s1.s2.s3.s31.s6.s7.s13.s10.s11": 23,
+        "s1.s2.s3.s31.s6.s7.s13.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s7.s14.s9": 24863,
+        "s1.s2.s3.s31.s6.s7.s14.s10.s11": 24,
+        "s1.s2.s3.s31.s6.s7.s14.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s7.s15.s9": 8079,
+        "s1.s2.s3.s31.s6.s7.s15.s10.s11": 25,
+        "s1.s2.s3.s31.s6.s7.s15.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s7.s16.s9": 1,
+        "s1.s2.s3.s31.s6.s7.s16.s10.s11": 26,
+        "s1.s2.s3.s31.s6.s7.s16.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s17": false,
+        "s1.s2.s3.s31.s6.s18.s19": "option_1",
+        "s1.s2.s3.s31.s6.s18.s20.s11": 351140117,
+        "s1.s2.s3.s31.s6.s18.s20.s12": "option_3",
+        "s1.s2.s3.s31.s21": "option_1",
+        "s1.s2.s3.s31.s22.s23": false,
+        "s1.s2.s3.s31.s22.s24": 64,
+        "s1.s2.s3.s31.s22.s25": "option_1",
+        "s1.s2.s3.s31.s22.s26": "option_1",
+        "s1.s2.s3.s31.s22.s27": 1.0139007583260535,
+        "s1.s2.s3.s31.s22.s28.s29": 1.001,
+        "s1.s2.s3.s31.s22.s28.s30": "option_1",
+        "s1.s2.s32": "option_1",
+        "s1.s2.s33": "option_4",
+        "s1": "option_5"
+      },
+      "metric": 0.7528092091530755
+    },
+    {
+      "parameters": {
+        "s1.s2.s3.s4.s5": "option_1",
+        "s1.s2.s3.s4.s6.s7.s8.s9": 25,
+        "s1.s2.s3.s4.s6.s7.s8.s10.s11": 16,
+        "s1.s2.s3.s4.s6.s7.s8.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s7.s13.s9": 8,
+        "s1.s2.s3.s4.s6.s7.s13.s10.s11": 17,
+        "s1.s2.s3.s4.s6.s7.s13.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s7.s14.s9": 6,
+        "s1.s2.s3.s4.s6.s7.s14.s10.s11": 18,
+        "s1.s2.s3.s4.s6.s7.s14.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s7.s15.s9": 5,
+        "s1.s2.s3.s4.s6.s7.s15.s10.s11": 19,
+        "s1.s2.s3.s4.s6.s7.s15.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s7.s16.s9": 0,
+        "s1.s2.s3.s4.s6.s7.s16.s10.s11": 20,
+        "s1.s2.s3.s4.s6.s7.s16.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s17": false,
+        "s1.s2.s3.s4.s6.s18.s19": "option_1",
+        "s1.s2.s3.s4.s6.s18.s20.s11": 910300,
+        "s1.s2.s3.s4.s6.s18.s20.s12": "option_2",
+        "s1.s2.s3.s4.s21": "option_1",
+        "s1.s2.s3.s4.s22.s23": false,
+        "s1.s2.s3.s4.s22.s24": 64,
+        "s1.s2.s3.s4.s22.s25": "option_1",
+        "s1.s2.s3.s4.s22.s26": "option_1",
+        "s1.s2.s3.s4.s22.s27": 1.5096524246037006,
+        "s1.s2.s3.s4.s22.s28.s29": 1.001,
+        "s1.s2.s3.s4.s22.s28.s30": "option_1",
+        "s1.s2.s3.s31.s5": "option_1",
+        "s1.s2.s3.s31.s6.s7.s8.s9": 1182125,
+        "s1.s2.s3.s31.s6.s7.s8.s10.s11": 22,
+        "s1.s2.s3.s31.s6.s7.s8.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s7.s13.s9": 77796,
+        "s1.s2.s3.s31.s6.s7.s13.s10.s11": 23,
+        "s1.s2.s3.s31.s6.s7.s13.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s7.s14.s9": 24863,
+        "s1.s2.s3.s31.s6.s7.s14.s10.s11": 24,
+        "s1.s2.s3.s31.s6.s7.s14.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s7.s15.s9": 8079,
+        "s1.s2.s3.s31.s6.s7.s15.s10.s11": 25,
+        "s1.s2.s3.s31.s6.s7.s15.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s7.s16.s9": 1,
+        "s1.s2.s3.s31.s6.s7.s16.s10.s11": 26,
+        "s1.s2.s3.s31.s6.s7.s16.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s17": false,
+        "s1.s2.s3.s31.s6.s18.s19": "option_1",
+        "s1.s2.s3.s31.s6.s18.s20.s11": 351140117,
+        "s1.s2.s3.s31.s6.s18.s20.s12": "option_3",
+        "s1.s2.s3.s31.s21": "option_1",
+        "s1.s2.s3.s31.s22.s23": false,
+        "s1.s2.s3.s31.s22.s24": 64,
+        "s1.s2.s3.s31.s22.s25": "option_1",
+        "s1.s2.s3.s31.s22.s26": "option_1",
+        "s1.s2.s3.s31.s22.s27": 2.3076830096542835,
+        "s1.s2.s3.s31.s22.s28.s29": 1.001,
+        "s1.s2.s3.s31.s22.s28.s30": "option_1",
+        "s1.s2.s32": "option_1",
+        "s1.s2.s33": "option_4",
+        "s1": "option_5"
+      },
+      "metric": 0.0
+    },
+    {
+      "parameters": {
+        "s1.s2.s3.s4.s5": "option_1",
+        "s1.s2.s3.s4.s6.s7.s8.s9": 25,
+        "s1.s2.s3.s4.s6.s7.s8.s10.s11": 16,
+        "s1.s2.s3.s4.s6.s7.s8.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s7.s13.s9": 8,
+        "s1.s2.s3.s4.s6.s7.s13.s10.s11": 17,
+        "s1.s2.s3.s4.s6.s7.s13.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s7.s14.s9": 6,
+        "s1.s2.s3.s4.s6.s7.s14.s10.s11": 18,
+        "s1.s2.s3.s4.s6.s7.s14.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s7.s15.s9": 5,
+        "s1.s2.s3.s4.s6.s7.s15.s10.s11": 19,
+        "s1.s2.s3.s4.s6.s7.s15.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s7.s16.s9": 0,
+        "s1.s2.s3.s4.s6.s7.s16.s10.s11": 20,
+        "s1.s2.s3.s4.s6.s7.s16.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s17": false,
+        "s1.s2.s3.s4.s6.s18.s19": "option_1",
+        "s1.s2.s3.s4.s6.s18.s20.s11": 910300,
+        "s1.s2.s3.s4.s6.s18.s20.s12": "option_2",
+        "s1.s2.s3.s4.s21": "option_1",
+        "s1.s2.s3.s4.s22.s23": false,
+        "s1.s2.s3.s4.s22.s24": 64,
+        "s1.s2.s3.s4.s22.s25": "option_1",
+        "s1.s2.s3.s4.s22.s26": "option_1",
+        "s1.s2.s3.s4.s22.s27": 2.055022923812609,
+        "s1.s2.s3.s4.s22.s28.s29": 1.001,
+        "s1.s2.s3.s4.s22.s28.s30": "option_1",
+        "s1.s2.s3.s31.s5": "option_1",
+        "s1.s2.s3.s31.s6.s7.s8.s9": 1182125,
+        "s1.s2.s3.s31.s6.s7.s8.s10.s11": 22,
+        "s1.s2.s3.s31.s6.s7.s8.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s7.s13.s9": 77796,
+        "s1.s2.s3.s31.s6.s7.s13.s10.s11": 23,
+        "s1.s2.s3.s31.s6.s7.s13.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s7.s14.s9": 24863,
+        "s1.s2.s3.s31.s6.s7.s14.s10.s11": 24,
+        "s1.s2.s3.s31.s6.s7.s14.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s7.s15.s9": 8079,
+        "s1.s2.s3.s31.s6.s7.s15.s10.s11": 25,
+        "s1.s2.s3.s31.s6.s7.s15.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s7.s16.s9": 1,
+        "s1.s2.s3.s31.s6.s7.s16.s10.s11": 26,
+        "s1.s2.s3.s31.s6.s7.s16.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s17": false,
+        "s1.s2.s3.s31.s6.s18.s19": "option_1",
+        "s1.s2.s3.s31.s6.s18.s20.s11": 351140117,
+        "s1.s2.s3.s31.s6.s18.s20.s12": "option_3",
+        "s1.s2.s3.s31.s21": "option_1",
+        "s1.s2.s3.s31.s22.s23": false,
+        "s1.s2.s3.s31.s22.s24": 64,
+        "s1.s2.s3.s31.s22.s25": "option_1",
+        "s1.s2.s3.s31.s22.s26": "option_1",
+        "s1.s2.s3.s31.s22.s27": 2.5,
+        "s1.s2.s3.s31.s22.s28.s29": 1.001,
+        "s1.s2.s3.s31.s22.s28.s30": "option_1",
+        "s1.s2.s32": "option_1",
+        "s1.s2.s33": "option_4",
+        "s1": "option_5"
+      },
+      "metric": 0.37724989444606133
+    },
+    {
+      "parameters": {
+        "s1.s2.s3.s4.s5": "option_1",
+        "s1.s2.s3.s4.s6.s7.s8.s9": 25,
+        "s1.s2.s3.s4.s6.s7.s8.s10.s11": 16,
+        "s1.s2.s3.s4.s6.s7.s8.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s7.s13.s9": 8,
+        "s1.s2.s3.s4.s6.s7.s13.s10.s11": 17,
+        "s1.s2.s3.s4.s6.s7.s13.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s7.s14.s9": 6,
+        "s1.s2.s3.s4.s6.s7.s14.s10.s11": 18,
+        "s1.s2.s3.s4.s6.s7.s14.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s7.s15.s9": 5,
+        "s1.s2.s3.s4.s6.s7.s15.s10.s11": 19,
+        "s1.s2.s3.s4.s6.s7.s15.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s7.s16.s9": 0,
+        "s1.s2.s3.s4.s6.s7.s16.s10.s11": 20,
+        "s1.s2.s3.s4.s6.s7.s16.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s17": false,
+        "s1.s2.s3.s4.s6.s18.s19": "option_1",
+        "s1.s2.s3.s4.s6.s18.s20.s11": 910300,
+        "s1.s2.s3.s4.s6.s18.s20.s12": "option_2",
+        "s1.s2.s3.s4.s21": "option_1",
+        "s1.s2.s3.s4.s22.s23": false,
+        "s1.s2.s3.s4.s22.s24": 64,
+        "s1.s2.s3.s4.s22.s25": "option_1",
+        "s1.s2.s3.s4.s22.s26": "option_1",
+        "s1.s2.s3.s4.s22.s27": 1.0697076212317418,
+        "s1.s2.s3.s4.s22.s28.s29": 1.001,
+        "s1.s2.s3.s4.s22.s28.s30": "option_1",
+        "s1.s2.s3.s31.s5": "option_1",
+        "s1.s2.s3.s31.s6.s7.s8.s9": 1182125,
+        "s1.s2.s3.s31.s6.s7.s8.s10.s11": 22,
+        "s1.s2.s3.s31.s6.s7.s8.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s7.s13.s9": 77796,
+        "s1.s2.s3.s31.s6.s7.s13.s10.s11": 23,
+        "s1.s2.s3.s31.s6.s7.s13.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s7.s14.s9": 24863,
+        "s1.s2.s3.s31.s6.s7.s14.s10.s11": 24,
+        "s1.s2.s3.s31.s6.s7.s14.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s7.s15.s9": 8079,
+        "s1.s2.s3.s31.s6.s7.s15.s10.s11": 25,
+        "s1.s2.s3.s31.s6.s7.s15.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s7.s16.s9": 1,
+        "s1.s2.s3.s31.s6.s7.s16.s10.s11": 26,
+        "s1.s2.s3.s31.s6.s7.s16.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s17": false,
+        "s1.s2.s3.s31.s6.s18.s19": "option_1",
+        "s1.s2.s3.s31.s6.s18.s20.s11": 351140117,
+        "s1.s2.s3.s31.s6.s18.s20.s12": "option_3",
+        "s1.s2.s3.s31.s21": "option_1",
+        "s1.s2.s3.s31.s22.s23": false,
+        "s1.s2.s3.s31.s22.s24": 64,
+        "s1.s2.s3.s31.s22.s25": "option_1",
+        "s1.s2.s3.s31.s22.s26": "option_1",
+        "s1.s2.s3.s31.s22.s27": 2.5,
+        "s1.s2.s3.s31.s22.s28.s29": 1.001,
+        "s1.s2.s3.s31.s22.s28.s30": "option_1",
+        "s1.s2.s32": "option_1",
+        "s1.s2.s33": "option_4",
+        "s1": "option_5"
+      },
+      "metric": 0.8185903966121092
+    },
+    {
+      "parameters": {
+        "s1.s2.s3.s4.s5": "option_1",
+        "s1.s2.s3.s4.s6.s7.s8.s9": 25,
+        "s1.s2.s3.s4.s6.s7.s8.s10.s11": 16,
+        "s1.s2.s3.s4.s6.s7.s8.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s7.s13.s9": 8,
+        "s1.s2.s3.s4.s6.s7.s13.s10.s11": 17,
+        "s1.s2.s3.s4.s6.s7.s13.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s7.s14.s9": 6,
+        "s1.s2.s3.s4.s6.s7.s14.s10.s11": 18,
+        "s1.s2.s3.s4.s6.s7.s14.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s7.s15.s9": 5,
+        "s1.s2.s3.s4.s6.s7.s15.s10.s11": 19,
+        "s1.s2.s3.s4.s6.s7.s15.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s7.s16.s9": 0,
+        "s1.s2.s3.s4.s6.s7.s16.s10.s11": 20,
+        "s1.s2.s3.s4.s6.s7.s16.s10.s12": "option_2",
+        "s1.s2.s3.s4.s6.s17": false,
+        "s1.s2.s3.s4.s6.s18.s19": "option_1",
+        "s1.s2.s3.s4.s6.s18.s20.s11": 910300,
+        "s1.s2.s3.s4.s6.s18.s20.s12": "option_2",
+        "s1.s2.s3.s4.s21": "option_1",
+        "s1.s2.s3.s4.s22.s23": false,
+        "s1.s2.s3.s4.s22.s24": 64,
+        "s1.s2.s3.s4.s22.s25": "option_1",
+        "s1.s2.s3.s4.s22.s26": "option_1",
+        "s1.s2.s3.s4.s22.s27": 1.4903038522011756,
+        "s1.s2.s3.s4.s22.s28.s29": 1.001,
+        "s1.s2.s3.s4.s22.s28.s30": "option_1",
+        "s1.s2.s3.s31.s5": "option_1",
+        "s1.s2.s3.s31.s6.s7.s8.s9": 1182125,
+        "s1.s2.s3.s31.s6.s7.s8.s10.s11": 22,
+        "s1.s2.s3.s31.s6.s7.s8.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s7.s13.s9": 77796,
+        "s1.s2.s3.s31.s6.s7.s13.s10.s11": 23,
+        "s1.s2.s3.s31.s6.s7.s13.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s7.s14.s9": 24863,
+        "s1.s2.s3.s31.s6.s7.s14.s10.s11": 24,
+        "s1.s2.s3.s31.s6.s7.s14.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s7.s15.s9": 8079,
+        "s1.s2.s3.s31.s6.s7.s15.s10.s11": 25,
+        "s1.s2.s3.s31.s6.s7.s15.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s7.s16.s9": 1,
+        "s1.s2.s3.s31.s6.s7.s16.s10.s11": 26,
+        "s1.s2.s3.s31.s6.s7.s16.s10.s12": "option_2",
+        "s1.s2.s3.s31.s6.s17": false,
+        "s1.s2.s3.s31.s6.s18.s19": "option_1",
+        "s1.s2.s3.s31.s6.s18.s20.s11": 351140117,
+        "s1.s2.s3.s31.s6.s18.s20.s12": "option_3",
+        "s1.s2.s3.s31.s21": "option_1",
+        "s1.s2.s3.s31.s22.s23": false,
+        "s1.s2.s3.s31.s22.s24": 64,
+        "s1.s2.s3.s31.s22.s25": "option_1",
+        "s1.s2.s3.s31.s22.s26": "option_1",
+        "s1.s2.s3.s31.s22.s27": 1.8615151483656276,
+        "s1.s2.s3.s31.s22.s28.s29": 1.001,
+        "s1.s2.s3.s31.s22.s28.s30": "option_1",
+        "s1.s2.s32": "option_1",
+        "s1.s2.s33": "option_4",
+        "s1": "option_5"
+      },
+      "metric": 1.0
+    }
+  ]
+}

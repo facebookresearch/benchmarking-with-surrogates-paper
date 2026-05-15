@@ -1,0 +1,238 @@
+{
+  "minimize": true,
+  "search_space": [
+    {
+      "name": "s1.s2",
+      "type": "choice",
+      "values": [
+        8,
+        24,
+        40,
+        56,
+        72,
+        88,
+        104,
+        120,
+        136,
+        152,
+        168,
+        184,
+        200,
+        216,
+        232,
+        248,
+        264,
+        280,
+        296,
+        312,
+        328,
+        344,
+        360,
+        376,
+        392,
+        408,
+        424,
+        440,
+        456,
+        472,
+        488,
+        504,
+        520,
+        536,
+        552,
+        568,
+        584,
+        600
+      ],
+      "parameter_type": "int",
+      "is_ordered": true,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s3",
+      "type": "choice",
+      "values": [
+        20,
+        40,
+        60,
+        80,
+        100,
+        120,
+        140,
+        160,
+        180,
+        200,
+        220,
+        240,
+        260,
+        280,
+        300,
+        320,
+        340,
+        360,
+        380,
+        400,
+        420,
+        440,
+        460,
+        480,
+        500,
+        520,
+        540,
+        560,
+        580,
+        600,
+        620,
+        640,
+        660,
+        680,
+        700,
+        720,
+        740,
+        760,
+        780,
+        800
+      ],
+      "parameter_type": "int",
+      "is_ordered": true,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1",
+      "type": "choice",
+      "values": [
+        "option_1"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": {
+        "option_1": [
+          "s1.s2",
+          "s1.s3"
+        ]
+      }
+    }
+  ],
+  "trials": [
+    {
+      "parameters": {
+        "s1.s2": 296,
+        "s1.s3": 180,
+        "s1": "option_1"
+      },
+      "metric": 0.1231256409736211
+    },
+    {
+      "parameters": {
+        "s1.s2": 104,
+        "s1.s3": 420,
+        "s1": "option_1"
+      },
+      "metric": 0.5892122762785896
+    },
+    {
+      "parameters": {
+        "s1.s2": 344,
+        "s1.s3": 320,
+        "s1": "option_1"
+      },
+      "metric": 0.11710925472847732
+    },
+    {
+      "parameters": {
+        "s1.s2": 456,
+        "s1.s3": 540,
+        "s1": "option_1"
+      },
+      "metric": 0.021248777556841247
+    },
+    {
+      "parameters": {
+        "s1.s2": 72,
+        "s1.s3": 240,
+        "s1": "option_1"
+      },
+      "metric": 0.8879735758684361
+    },
+    {
+      "parameters": {
+        "s1.s2": 184,
+        "s1.s3": 800,
+        "s1": "option_1"
+      },
+      "metric": 0.4648630900470801
+    },
+    {
+      "parameters": {
+        "s1.s2": 232,
+        "s1.s3": 400,
+        "s1": "option_1"
+      },
+      "metric": 0.2553197685885736
+    },
+    {
+      "parameters": {
+        "s1.s2": 24,
+        "s1.s3": 640,
+        "s1": "option_1"
+      },
+      "metric": 1.0
+    },
+    {
+      "parameters": {
+        "s1.s2": 408,
+        "s1.s3": 160,
+        "s1": "option_1"
+      },
+      "metric": 0.0
+    },
+    {
+      "parameters": {
+        "s1.s2": 376,
+        "s1.s3": 720,
+        "s1": "option_1"
+      },
+      "metric": 0.23607998890755805
+    },
+    {
+      "parameters": {
+        "s1.s2": 264,
+        "s1.s3": 580,
+        "s1": "option_1"
+      },
+      "metric": 0.38385985461813854
+    },
+    {
+      "parameters": {
+        "s1.s2": 488,
+        "s1.s3": 260,
+        "s1": "option_1"
+      },
+      "metric": 0.03117269665772561
+    },
+    {
+      "parameters": {
+        "s1.s2": 472,
+        "s1.s3": 600,
+        "s1": "option_1"
+      },
+      "metric": 0.0591922924637637
+    },
+    {
+      "parameters": {
+        "s1.s2": 248,
+        "s1.s3": 280,
+        "s1": "option_1"
+      },
+      "metric": 0.23979730847893718
+    },
+    {
+      "parameters": {
+        "s1.s2": 120,
+        "s1.s3": 760,
+        "s1": "option_1"
+      },
+      "metric": 0.5169913789577788
+    }
+  ]
+}

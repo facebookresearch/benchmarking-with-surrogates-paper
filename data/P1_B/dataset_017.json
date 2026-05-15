@@ -1,0 +1,172 @@
+{
+  "minimize": true,
+  "search_space": [
+    {
+      "name": "s1.s2.s3",
+      "type": "choice",
+      "values": [
+        2.0,
+        10.0
+      ],
+      "parameter_type": "float",
+      "is_ordered": true,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s4",
+      "type": "choice",
+      "values": [
+        64,
+        128
+      ],
+      "parameter_type": "int",
+      "is_ordered": true,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s5",
+      "type": "choice",
+      "values": [
+        0.1,
+        0.5
+      ],
+      "parameter_type": "float",
+      "is_ordered": true,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s6",
+      "type": "choice",
+      "values": [
+        0.05,
+        0.1,
+        0.5
+      ],
+      "parameter_type": "float",
+      "is_ordered": true,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s7",
+      "type": "choice",
+      "values": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "parameter_type": "float",
+      "is_ordered": true,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s8",
+      "type": "choice",
+      "values": [
+        0.5,
+        0.8,
+        1.0
+      ],
+      "parameter_type": "float",
+      "is_ordered": true,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s2.s9",
+      "type": "choice",
+      "values": [
+        false,
+        true
+      ],
+      "parameter_type": "bool",
+      "is_ordered": true,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1",
+      "type": "choice",
+      "values": [
+        "option_1"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": {
+        "option_1": [
+          "s1.s2.s3",
+          "s1.s2.s4",
+          "s1.s2.s5",
+          "s1.s2.s6",
+          "s1.s2.s7",
+          "s1.s2.s8",
+          "s1.s2.s9"
+        ]
+      }
+    }
+  ],
+  "trials": [
+    {
+      "parameters": {
+        "s1.s2.s3": 10.0,
+        "s1.s2.s4": 128,
+        "s1.s2.s5": 0.5,
+        "s1.s2.s6": 0.1,
+        "s1.s2.s7": 2.0,
+        "s1.s2.s8": 1.0,
+        "s1.s2.s9": false,
+        "s1": "option_1"
+      },
+      "metric": 1.0
+    },
+    {
+      "parameters": {
+        "s1.s2.s3": 2.0,
+        "s1.s2.s4": 64,
+        "s1.s2.s5": 0.5,
+        "s1.s2.s6": 0.1,
+        "s1.s2.s7": 0.5,
+        "s1.s2.s8": 1.0,
+        "s1.s2.s9": false,
+        "s1": "option_1"
+      },
+      "metric": 0.0
+    },
+    {
+      "parameters": {
+        "s1.s2.s3": 2.0,
+        "s1.s2.s4": 64,
+        "s1.s2.s5": 0.5,
+        "s1.s2.s6": 0.5,
+        "s1.s2.s7": 2.0,
+        "s1.s2.s8": 1.0,
+        "s1.s2.s9": true,
+        "s1": "option_1"
+      },
+      "metric": 0.19495618810812904
+    },
+    {
+      "parameters": {
+        "s1.s2.s3": 2.0,
+        "s1.s2.s4": 128,
+        "s1.s2.s5": 0.1,
+        "s1.s2.s6": 0.05,
+        "s1.s2.s7": 2.0,
+        "s1.s2.s8": 0.8,
+        "s1.s2.s9": false,
+        "s1": "option_1"
+      },
+      "metric": 0.45242832495434165
+    },
+    {
+      "parameters": {
+        "s1.s2.s3": 10.0,
+        "s1.s2.s4": 128,
+        "s1.s2.s5": 0.5,
+        "s1.s2.s6": 0.1,
+        "s1.s2.s7": 0.5,
+        "s1.s2.s8": 0.5,
+        "s1.s2.s9": false,
+        "s1": "option_1"
+      },
+      "metric": 0.9717998242051169
+    }
+  ]
+}

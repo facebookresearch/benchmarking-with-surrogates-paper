@@ -1,0 +1,73 @@
+{
+  "minimize": true,
+  "search_space": [
+    {
+      "name": "s1.s2",
+      "type": "range",
+      "bounds": [
+        -0.9,
+        -0.09999999999999998
+      ],
+      "parameter_type": "float",
+      "scaling": null
+    },
+    {
+      "name": "s1",
+      "type": "choice",
+      "values": [
+        "option_1"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": {
+        "option_1": [
+          "s1.s2"
+        ]
+      }
+    }
+  ],
+  "trials": [
+    {
+      "parameters": {
+        "s1.s2": -0.6199311256408692,
+        "s1": "option_1"
+      },
+      "metric": 0.6401162390438947
+    },
+    {
+      "parameters": {
+        "s1.s2": -0.3795950740575791,
+        "s1": "option_1"
+      },
+      "metric": 0.9268319791276577
+    },
+    {
+      "parameters": {
+        "s1.s2": -0.13406559452414513,
+        "s1": "option_1"
+      },
+      "metric": 1.0
+    },
+    {
+      "parameters": {
+        "s1.s2": -0.8687260136008262,
+        "s1": "option_1"
+      },
+      "metric": 0.0
+    },
+    {
+      "parameters": {
+        "s1.s2": -0.7616162411868572,
+        "s1": "option_1"
+      },
+      "metric": 0.3268606871253755
+    },
+    {
+      "parameters": {
+        "s1.s2": -0.48473561668360665,
+        "s1": "option_1"
+      },
+      "metric": 0.8498622285183366
+    }
+  ]
+}

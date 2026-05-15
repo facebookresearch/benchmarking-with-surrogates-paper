@@ -1,0 +1,145 @@
+{
+  "minimize": true,
+  "search_space": [
+    {
+      "name": "s1.s2",
+      "type": "choice",
+      "values": [
+        16,
+        24,
+        32,
+        40,
+        48,
+        56,
+        64,
+        72,
+        80
+      ],
+      "parameter_type": "int",
+      "is_ordered": true,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1.s3",
+      "type": "choice",
+      "values": [
+        100,
+        110,
+        120,
+        130,
+        140,
+        150,
+        160,
+        170,
+        180,
+        190,
+        200,
+        210,
+        220,
+        230,
+        240,
+        250,
+        260,
+        270,
+        280,
+        290,
+        300,
+        310,
+        320,
+        330,
+        340,
+        350,
+        360,
+        370,
+        380,
+        390,
+        400,
+        410,
+        420,
+        430,
+        440,
+        450,
+        460,
+        470,
+        480,
+        490
+      ],
+      "parameter_type": "int",
+      "is_ordered": true,
+      "dependent_parameters": null
+    },
+    {
+      "name": "s1",
+      "type": "choice",
+      "values": [
+        "option_1"
+      ],
+      "parameter_type": "str",
+      "is_ordered": null,
+      "dependent_parameters": {
+        "option_1": [
+          "s1.s2",
+          "s1.s3"
+        ]
+      }
+    }
+  ],
+  "trials": [
+    {
+      "parameters": {
+        "s1.s2": 24,
+        "s1.s3": 340,
+        "s1": "option_1"
+      },
+      "metric": 1.0
+    },
+    {
+      "parameters": {
+        "s1.s2": 80,
+        "s1.s3": 140,
+        "s1": "option_1"
+      },
+      "metric": 0.4106822266583683
+    },
+    {
+      "parameters": {
+        "s1.s2": 48,
+        "s1.s3": 420,
+        "s1": "option_1"
+      },
+      "metric": 0.33082017059330787
+    },
+    {
+      "parameters": {
+        "s1.s2": 32,
+        "s1.s3": 220,
+        "s1": "option_1"
+      },
+      "metric": 0.9410579837932922
+    },
+    {
+      "parameters": {
+        "s1.s2": 56,
+        "s1.s3": 270,
+        "s1": "option_1"
+      },
+      "metric": 0.3445167741101984
+    },
+    {
+      "parameters": {
+        "s1.s2": 72,
+        "s1.s3": 390,
+        "s1": "option_1"
+      },
+      "metric": 0.07322447674832452
+    },
+    {
+      "parameters": {
+        "s1.s2": 80,
+        "s1.s3": 300,
+        "s1": "option_1"
+      },
+      "metric": 0.0
+    }
+  ]
+}
