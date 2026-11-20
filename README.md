@@ -1,7 +1,6 @@
 # About
 
-This repository is a set of self-contained utils to to enable reproducible benchmarking in the following paper:
-"How Surrogate Fidelity and Dataset Size Shape Benchmarking Conclusions: A Case Study in Ads Ranking" AutoML Conference, 2026.
+This repository provides code and benchmark datasets for reproducing the experiments in “How Surrogate Fidelity and Dataset Size Shape Benchmarking Conclusions: A Case Study in Ads Ranking,” accepted at the Ninth IEEE International Workshop on Benchmarking, Performance Tuning and Optimization for Big Data Analytics and Big Models ([BPOD 2026](https://bdal.umbc.edu/bpod/bpod-2026/)), co-located with the IEEE International Conference on Big Data 2026.
 
 It loads benchmark data from JSON files, trains surrogate models, and runs standardized comparisons using [Ax](https://ax.dev/)'s benchmarking framework.
 
